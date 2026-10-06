@@ -1,0 +1,13 @@
+prefix=/Users/Pragyan/Desktop/ML_project/vnv
+exec_prefix=/Users/Pragyan/Desktop/ML_project/vnv
+libdir=/Users/Pragyan/Desktop/ML_project/vnv/lib
+sharedlibdir=/Users/Pragyan/Desktop/ML_project/vnv/lib
+includedir=/Users/Pragyan/Desktop/ML_project/vnv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
